@@ -1,0 +1,15 @@
+.FeatureItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FeatureItem img{
+    height: 72px;
+    width: 72px;
+}
+
+.FeatureItem span{
+    font-size: 19px;
+    font-weight: 500;
+}

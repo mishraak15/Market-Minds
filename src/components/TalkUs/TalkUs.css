@@ -1,0 +1,79 @@
+.TalkUs {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(236, 236, 236);
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.TalkUs span {
+  color: #2d3142;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.TalkUs form {
+  width: 450px;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  background-color: white;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: auto;
+}
+
+.TalkUs form input {
+  border: none;
+  border-bottom: 1px solid #6f718f99;
+  font-size: 14px;
+  color: #2D3142;
+  font-weight: 500;
+  background-color: transparent;
+  margin: 1em 0;
+}
+
+.TalkUs form input::placeholder {
+  font-size: 14px;
+  color: #6f718f99;
+}
+
+.TalkUS-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkbox-container p {
+  font-size: 14px;
+  color: #616678;
+  opacity: 0.9;
+  display: inline;
+}
+
+.checkbox-container input {
+  margin: 3px 10px 3px 5px !important;
+  accent-color: #ff3366;
+}
+
+.TalkUs form button {
+  background-color: #ff3366;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  margin: 2em 1em 1em 1em;
+}

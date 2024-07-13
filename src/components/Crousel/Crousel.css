@@ -1,0 +1,31 @@
+.Crousel {
+  width: 100%;
+  margin: 1em auto;
+}
+
+.slick-slide img {
+  display: block;
+  width: 250px;
+  height: 320px;
+  margin: auto 1em;
+}
+
+.slick-initialized {
+  width: 90%;
+  padding: 0 10px;
+}
+
+.slick-dots {
+  bottom: -40px;
+  text-align: left;
+}
+
+.slick-dots .slick-active {
+  border-radius: 50%;
+  padding: 0.5px;
+  border: 0.5px solid #ff3147ed;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #eb0404 !important;
+}

@@ -1,0 +1,15 @@
+.ProjectDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 1em;
+    background-color: #F6F6F6;
+    height: 29%;
+    width: 300px;
+    cursor: pointer;
+}
+
+.ProjectDetail span{
+    font-size: 20px;
+    font-weight: 500;
+}

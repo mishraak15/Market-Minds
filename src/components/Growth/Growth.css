@@ -1,0 +1,22 @@
+.Growth {
+  margin: 2em 0;
+  background-color: #fafafa;
+}
+
+.Growth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 75%;
+  padding: 3em 0;
+  margin: auto;
+}
+
+.Growth-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}

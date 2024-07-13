@@ -1,0 +1,8 @@
+.Footer {
+  background: #FF3147 url("../../assets/FooterBackground.svg") no-repeat;
+  /* opacity: 0.81; */
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

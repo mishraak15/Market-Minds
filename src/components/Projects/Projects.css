@@ -1,0 +1,23 @@
+.Projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 75%;
+    margin: 3em auto;
+}
+
+.project-container{
+    display: flex;
+    gap: 1em;
+}
+
+.project-container img{
+    width: 650px;
+    height: 450px;
+}
+
+.project-details{
+    height: 450px;
+}

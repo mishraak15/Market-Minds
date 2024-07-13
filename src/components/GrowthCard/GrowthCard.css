@@ -1,0 +1,27 @@
+.GrowthCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 1em 0;
+  gap: 10px;
+  width: 250px;
+}
+
+.GrowthCard:hover {
+  box-shadow: 3px 6px 20px #672c2c33;
+  cursor: pointer;
+}
+
+.GrowthCard img {
+  width: 35px;
+}
+
+.GrowthCard .title {
+  font-weight: lighter;
+}
+
+.GrowthCard p {
+  font-size: 20px;
+}

@@ -1,0 +1,61 @@
+.CrousalCard {
+  position: relative;
+}
+
+.hovered-item {
+    background-color: #ff3147;
+    border-radius: 5px;
+    width: 240px;
+    height: 320px;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 9px;
+    padding: 0 10px;
+    z-index: 3;
+  }
+  
+  .hovered-item img {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+  }
+  
+  .hovered-item span {
+    font-size: 24px;
+  }
+  
+  .hovered-item p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .hovered-item button {
+    border: none;
+    background-color: white;
+    color: #ff3147;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2em;
+    padding: 3px 12px;
+    font-weight: 500;
+  }
+  
+  .hovered-item button img {
+    width: 20px;
+    height: 10px;
+    display: inline;
+  }
+  
+  .CrousalCard img:hover + .hovered-item {
+    display: flex;
+    transition: all 0.4s ease-in-out;
+  }
