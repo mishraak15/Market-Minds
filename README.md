@@ -1,6 +1,9 @@
 # Marketing Agency: Market Minds
 This Project is built using React and Vite. It is a frontend project explaining all the details of a Marketing COmpany named: `Maket Minds`.
 
+## Hosted Link
+### https://marketmindsapp.netlify.app
+
 ## npm i
 Firstly install all the dependencies and modules using - `npm install` or `npm i`
 
